@@ -1,0 +1,231 @@
+body {
+    background: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+h2   {
+    font-size: 32px;
+    font-weight: 300;
+    color: #394d54;
+} 
+.navbar-brand {
+    padding: 2px;
+}
+.navbar-brand img{
+   height: 77px;
+}
+.navbar-nav.nav {
+    position: relative;
+    left: 0;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.navbar-nav.nav li {
+    line-height: 1.7;
+}
+.navbar-nav.nav li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #253237;
+    line-height: 55px;
+    padding: 0 20px;
+    line-height: 80px;
+    padding: 0 15px;
+}
+.navbar-nav.nav li a:hover {
+    color: #24b8eb;
+}
+.navbar-nav.nav li.active a {
+    background-color: #E8E8E8;
+    color: #253237;
+}
+.hero-unit {
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.hero-unit h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.btn {
+    border: none;
+    font-weight: 700;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #ff8100;
+}
+
+.btn-primary:hover {
+    background-color: #ffa141;
+}
+
+.btn-default {
+    background-color: #005976;
+}
+
+.btn-default:hover {
+    background-color: #24b8eb;
+}
+
+.btn-alternative {
+    background-color: transparent;
+    border: 1px solid #253237;
+    color: #253237;
+}
+
+.btn-alternative:hover {
+    border: 1px solid #24b8eb;
+    color: #24b8eb;
+}
+.navbar-inverse {
+    background-color: transparent;
+}
+.user-nav {
+    float: right;
+}
+.user-nav .btn {
+    margin: 24px 0 0 13px;
+    padding: 5px 24px;
+}
+#wrapping-jumbo {
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+/*    background: #fff url('https://d3oypxn00j2a10.cloudfront.net/0.10.3/img/universal/wrapping-banner-fallback-bg.png');*/
+    background: -moz-linear-gradient(top,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(50%,#CEEFFA),color-stop(100%,#A6E3F8));
+    background: -webkit-linear-gradient(top,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
+    background: -o-linear-gradient(top,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
+    background: -ms-linear-gradient(top,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
+    background: linear-gradient(to bottom,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#A6E3F8',GradientType=0);
+}
+#wrapping-jumbo #copy-block {
+    width: 425px;
+    margin-left: 26px;
+    margin-bottom: 104px;
+    margin-top: 74px!important;
+}
+#wrapping-jumbo #logo-block {
+height: 261px;
+width: 459px;
+margin-top: 57px;
+margin-bottom: 86px;
+background: url('../images/krane-jumbo.png');
+background-size: auto 261px;
+background-position: center;
+background-repeat: no-repeat;
+}
+#wrapping-jumbo .subhead {
+    display: block;
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+    font-size: 20px;
+}
+#wrapping-jumbo .header1,
+#wrapping-jumbo .eyebrow-header {
+line-height: 46px;
+}
+#wrapping-jumbo .btn {
+    min-width: 180px;
+    padding: 6px 10px!important;
+    margin-right: 8px;
+}
+#wrapping-jumbo .btn {
+    font-size: 18px;
+}
+.eyebrow-header {
+    font-size: 44px;
+    font-weight: 100;
+    color: #253237;
+    line-height: 1.891;
+}
+.header1 {
+    font-size: 40px
+    font-weight: 500;
+    color: #253237;
+    line-height: 1.891;
+}
+.three {
+    padding-top: 86px;
+    text-align: center;
+}
+.three .img {
+    height: 98px;
+    background-repeat: no-repeat!important;
+    display: block;
+    margin: 0 auto;
+    background-position: center;
+}
+#stack-icon {
+    background: url('../images/icons/cloud-providers.png');
+    background-size: 200px auto;
+    width: 200px;
+}
+#container-icon {
+    background: url('../images/icons/container-flexi.svg');
+    background-size: 108px 83px;
+    width: 108px;
+}
+#rack-icon {
+    background: url('../images/icons/krane.png');
+    background-size: 108px 83px;
+    width: 108px;
+}
+
+#wrapping-highlight {
+    background-color: #f2fcff;
+    padding: 40px 0;
+}
+.what-row {
+    padding: 50px 0;
+}
+.what-row:nth-child(2n+2) {
+    background-color: #f2fcff;
+}
+.row-header {
+    margin: 75px 0;
+}
+@media screen and (min-width: 768px) {
+  .navbar-fixed-top {
+    position: static;
+    margin-bottom: 0;
+  }
+  body {
+    padding-top: 0;
+  }
+  .navbar-brand {
+    padding-right: 96px;
+  }
+    .navbar-brand img{
+        height: 82px;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 4px;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 940px;
+  }
+}
