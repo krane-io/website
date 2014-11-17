@@ -115,13 +115,13 @@ h2   {
     background: linear-gradient(to bottom,#fff 0,#CEEFFA 50%,#A6E3F8 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#A6E3F8',GradientType=0);
 }
-#wrapping-jumbo #copy-block {
+#wrapping-jumbo .copy-block {
     width: 425px;
     margin-left: 26px;
     margin-bottom: 104px;
     margin-top: 74px!important;
 }
-#wrapping-jumbo #logo-block {
+#wrapping-jumbo .logo-block {
 height: 261px;
 width: 459px;
 margin-top: 57px;
